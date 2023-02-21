@@ -1,3 +1,3 @@
 import printaword
 
-printaword.printa()
+printaword.printa("Botos Levi arg")
