@@ -1,4 +1,3 @@
-import pit
+import whl
 
-
-pit.check()
+whl.prnt(100, 13)
