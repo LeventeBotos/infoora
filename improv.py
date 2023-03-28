@@ -3,18 +3,18 @@ def inp(prompt, type):
     ret = input()
     if type == "int":
         try:
-            ret2 = int(ret)
-        except:
+            ret = int(ret)
+        except ValueError:
             print("type error")
     elif type == "float":
         try:
-            ret2 = float(ret)
-        except:
+            ret = float(ret)
+        except ValueError:
             print("type error")
     elif type == "bool":
         try:
-            ret2 = bool(ret)
-        except:
+            ret = bool(ret)
+        except ValueError:
             print("type error")
 
-    return ret2
+    return ret
