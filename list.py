@@ -1,4 +1,5 @@
 import csv
+import improv
 
 
 def func():
@@ -9,5 +10,14 @@ def func():
 
 
 def li():
-    lis = ["a", "b", "x", "y"]
+    lis = ["Roli", "Bulcsu", "Peti", "Levi"]
+    lis.append("Gergo")
+    print(lis)
+    a = 0
+    li2 = []
+    h = improv.inp("Mennyit kérsz?", "int")
+    while a < h:
+        li2.append(input(f'Név {a + 1}: '))
+        a += 1
+    lis = lis + li2
     print(lis)
