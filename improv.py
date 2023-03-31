@@ -16,5 +16,10 @@ def inp(prompt, type):
             ret = bool(ret)
         except ValueError:
             print("Type error.")
+    elif type == "str" or type == "string":
+        try:
+            ret = ret
+        except ValueError:
+            print("Type error")
 
     return ret

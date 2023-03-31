@@ -1,3 +1,6 @@
 import list
 
-list.li()
+lis = ["Roli", "Bulcsu", "Peti", "Levi"]
+lis.append("Gergo")
+
+list.spec(lis)
