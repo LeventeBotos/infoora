@@ -30,12 +30,14 @@ def count(bsum, dsum, lis):
     print(dsum)
     print(bsum)
     while True:
-        nth = 0
-        if lis[nth][0] == "B":
-            bsum += 1
-            print(bsum)
-            nth += 1
-        else:
+        try:
+            if lis[bsum + dsum][0] == "B":
+                bsum += int(lis[bsum + dsum][1])*10 + int(lis[bsum + dsum][2])
+                print(bsum)
+            elif lis[bsum + dsum][0] == "D":
+                dsum += int(lis[bsum + dsum][1])*10 + int(lis[bsum + dsum][2])
+                print(dsum)
+        except IndexError:
             print("no")
             break
 
