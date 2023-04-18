@@ -1,6 +1,5 @@
 import list
 
-lis = ["Roli", "Bulcsu", "Peti", "Levi"]
-lis.append("Gergo")
+lis = ["B20", "B5"]
 
-list.spec(lis)
+list.selling()

@@ -9,6 +9,37 @@ def func():
             print(', '.join(row))
 
 
+def selling():
+    lis = []
+    bsum, dsum = 0, 0
+    while True:
+        resp = improv.inp('Akarsz hozzadni?', 'str')
+        if resp == "y":
+            add = improv.inp("mit?", "str")
+            lis.append(add)
+            print(lis)
+        else:
+            break
+    print("done")
+    count(bsum, dsum, lis)
+    return lis
+
+
+def count(bsum, dsum, lis):
+    print(lis)
+    print(dsum)
+    print(bsum)
+    while True:
+        nt = 0
+        if lis[n][0] == "B":
+            bsum += 1
+            print(bsum)
+            n += 1
+        else:
+            print("no")
+            break
+
+
 def li(lis):
     a = 0
     li2 = []
@@ -25,3 +56,10 @@ def spec(lis):
     t = improv.inp("Milyen type lesz?", str)
     lis[h] = improv.inp("Ird be, kérlek", t)
     print(lis)
+
+# import list
+
+# lis = ["Roli", "Bulcsu", "Peti", "Levi"]
+# lis.append("Gergo")
+
+# list.spec(lis)
