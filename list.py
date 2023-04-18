@@ -30,11 +30,11 @@ def count(bsum, dsum, lis):
     print(dsum)
     print(bsum)
     while True:
-        nt = 0
-        if lis[n][0] == "B":
+        nth = 0
+        if lis[nth][0] == "B":
             bsum += 1
             print(bsum)
-            n += 1
+            nth += 1
         else:
             print("no")
             break
