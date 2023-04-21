@@ -11,7 +11,6 @@ def func():
 
 def selling():
     lis = []
-    bsum, dsum = 0, 0
     while True:
         resp = improv.inp('Akarsz hozzadni?', 'str')
         if resp == "y":
@@ -21,24 +20,22 @@ def selling():
         else:
             break
     print("done")
-    count(bsum, dsum, lis)
-    return lis
+    count(lis)
 
 
-def count(bsum, dsum, lis):
+def count(lis):
     print(lis)
-    print(dsum)
-    print(bsum)
+    bsum, dsum = 0, 0
     while True:
-        try:
-            if lis[bsum + dsum][0] == "B":
-                bsum += int(lis[bsum + dsum][1])*10 + int(lis[bsum + dsum][2])
-                print(bsum)
-            elif lis[bsum + dsum][0] == "D":
-                dsum += int(lis[bsum + dsum][1])*10 + int(lis[bsum + dsum][2])
-                print(dsum)
-        except IndexError:
-            print("no")
+        if lis[bsum + dsum][0] == "B":
+            bsum += int(lis[bsum + dsum][1])*10 + int(lis[bsum + dsum][2])
+            print(f' b: {bsum}, d: {dsum}')
+            return (bsum)
+        elif lis[bsum + dsum][0] == "D":
+            dsum += int(lis[bsum + dsum][1])*10 + int(lis[bsum + dsum][2])
+            print(f' b: {bsum}, d: {dsum}')
+            return (dsum)
+        else:
             break
 
 
