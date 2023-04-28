@@ -1,5 +1,3 @@
-import list
+import format
 
-lis = ["B20", "B5"]
-
-list.selling()
+format.format()
