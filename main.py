@@ -1,5 +1,8 @@
-import functions
+import encode
+import improv
 
-x = int(input("Szám 1: "))
-y = int(input("Szám 1: "))
-print(functions.check(x, y))
+inp = improv.inp("Add meg a stringet", str)
+x = encode.encode_string(inp)
+y = encode.decode_string(x)
+
+print(f'encoded: {x} decoded: {y}')
