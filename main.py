@@ -1,8 +1,5 @@
-import encode
-import improv
+import hiddenstring
+import dontdefaultbckslashn
 
-inp = improv.inp("Add meg a stringet", str)
-x = encode.encode_string(inp)
-y = encode.decode_string(x)
-
-print(f'encoded: {x} decoded: {y}')
+print(hiddenstring.pasteIntoText("Botos", "Levente"))
+dontdefaultbckslashn.func()
