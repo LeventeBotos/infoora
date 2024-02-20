@@ -1,0 +1,14 @@
+/Users/leventebotos/infoora/cs/one/bin/Debug/net7.0/one
+/Users/leventebotos/infoora/cs/one/bin/Debug/net7.0/one.deps.json
+/Users/leventebotos/infoora/cs/one/bin/Debug/net7.0/one.runtimeconfig.json
+/Users/leventebotos/infoora/cs/one/bin/Debug/net7.0/one.dll
+/Users/leventebotos/infoora/cs/one/bin/Debug/net7.0/one.pdb
+/Users/leventebotos/infoora/cs/one/obj/Debug/net7.0/one.GeneratedMSBuildEditorConfig.editorconfig
+/Users/leventebotos/infoora/cs/one/obj/Debug/net7.0/one.AssemblyInfoInputs.cache
+/Users/leventebotos/infoora/cs/one/obj/Debug/net7.0/one.AssemblyInfo.cs
+/Users/leventebotos/infoora/cs/one/obj/Debug/net7.0/one.csproj.CoreCompileInputs.cache
+/Users/leventebotos/infoora/cs/one/obj/Debug/net7.0/one.dll
+/Users/leventebotos/infoora/cs/one/obj/Debug/net7.0/refint/one.dll
+/Users/leventebotos/infoora/cs/one/obj/Debug/net7.0/one.pdb
+/Users/leventebotos/infoora/cs/one/obj/Debug/net7.0/one.genruntimeconfig.cache
+/Users/leventebotos/infoora/cs/one/obj/Debug/net7.0/ref/one.dll
