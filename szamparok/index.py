@@ -29,3 +29,5 @@ for i in range(100):
             list.append(f"{i} és {j}")
 
 print(len(list))
+
+## I think I have it done...
