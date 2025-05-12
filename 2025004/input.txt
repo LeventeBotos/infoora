@@ -1,0 +1,3 @@
+Levi,1000
+Zsombor,0
+Peti,500
